@@ -1,0 +1,33 @@
+# Binary executable
+xsh2scrt
+
+# Test files
+*.test
+*.out
+*.log
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test coverage
+coverage.txt
+coverage.html
+*.cover
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories (for testing)
+securecrt_sessions/
+securecrt_sessions_test/
